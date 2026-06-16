@@ -1,58 +1,220 @@
 
-## NeuralStroke: An AI-Powered Stroke Risk Prediction System
 
-I'm excited to share our final project, NeuralStroke — a machine learning system designed to predict stroke risk with high accuracy and clinical relevance, now deployed as an interactive web application.
+# 🧠 NeuralStroke: AI-Powered Stroke Risk Prediction System
 
-🎯 The Challenge
-Stroke is a leading cause of death and long-term disability worldwide. Early detection is difficult due to complex relationships between risk factors.
+## 🎯 Project Overview
 
-💡 Our Solution
-An automated screening system that:
-Uses 35,000 medically validated samples
-Balances data: 61.6% at-risk, 38.4% healthy
-Includes 16 comprehensive features covering symptoms and demographics
-Applies feature engineering and advanced ML models
-Implements Gradient Boosting, AdaBoost, Random Forest, SVM, and Neural Networks
-Achieves 96.4% precision in stroke risk classification
-Provides explainable results to support medical decisions
+NeuralStroke is a machine learning-based system designed to predict stroke risk with high accuracy and clinical relevance. The solution is deployed as an interactive web application to support early risk assessment and healthcare decision-making.
 
-🛠️ Tech Stack
-Python, Pandas, NumPy, Scikit-Learn, TensorFlow/Keras, Matplotlib, Seaborn, Streamlit.
+---
 
-🔧 Data Processing
-Cleaning, handling missing values, deduplication, and label encoding.
+## 🎯 The Challenge
 
-📊 Exploratory Data Analysis (EDA)
-Using Matplotlib and Seaborn, we visualized data distributions and identified key correlations between features, which informed feature selection.
+* Stroke is one of the leading causes of death and long-term disability worldwide.
+* Early detection is difficult due to the complex relationships between medical and demographic risk factors.
+* Healthcare professionals need reliable tools for rapid risk assessment.
 
-⚙️ Feature Engineering & Selection
-We applied Recursive Feature Elimination (RFE) to systematically identify and retain the most predictive clinical and demographic features, optimizing model performance and reducing complexity.
+---
 
-📈 Model Training & Validation
-All models were rigorously validated using ROC-AUC curves, Classification Reports, and Confusion Matrices to ensure robust performance and high recall.
+## 💡 Our Solution
 
-🏆 Results
-Best model (Logistic Regression) achieved 96.4% accuracy.
-Neural Network reached 95.9% accuracy with clear feature interpretability.
+The system provides an automated stroke risk screening platform that:
 
-🔮 Future Work
-Real-time biometric integration, mobile app, wearable compatibility, and EHR connectivity.
+* Uses **35,000 medically validated samples**
+* Balances data distribution:
 
-🌐 Streamlit Web Application Deployment
-📊 Four Key Modules:
-Dashboard – Overview & metrics
-Data Explorer – Interactive charts & correlations
-Risk Predictor – Real-time assessment with recommendations
-Model Insights – Performance visualizations & feature importance
+  * **61.6% At-Risk**
+  * **38.4% Healthy**
+* Includes **16 clinical and demographic features**
+* Applies feature engineering techniques
+* Utilizes multiple machine learning algorithms:
 
-✨ User Experience:
-Clean, medical-themed UI
-Real-time input processing
-Privacy-first local computation
-Designed for patients, doctors, and researchers
+  * Gradient Boosting
+  * AdaBoost
+  * Random Forest
+  * Support Vector Machine (SVM)
+  * Neural Networks
+  * Logistic Regression
+* Provides explainable predictions to support medical decision-making
 
-🚀 Why Streamlit?
-Rapid prototyping & deployment
-Seamless Python integration
-Interactive visualizations with Plotly
-Responsive & mobile-friendly
+---
+
+## 🛠️ Tech Stack
+
+### Programming & Data Science
+
+* Python
+* Pandas
+* NumPy
+
+### Machine Learning
+
+* Scikit-Learn
+* TensorFlow
+* Keras
+
+### Visualization
+
+* Matplotlib
+* Seaborn
+* Plotly
+
+### Deployment
+
+* Streamlit
+
+---
+
+## 🔧 Data Processing
+
+* Data cleaning
+* Missing value handling
+* Duplicate removal
+* Label encoding
+* Data balancing
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+We performed extensive exploratory analysis to understand the dataset and identify key patterns.
+
+### EDA Tasks
+
+* Data distribution analysis
+* Correlation analysis
+* Outlier detection
+* Feature relationship exploration
+
+### Tools Used
+
+* Matplotlib
+* Seaborn
+
+---
+
+## ⚙️ Feature Engineering & Selection
+
+### Techniques Applied
+
+* Feature transformation
+* Feature encoding
+* Recursive Feature Elimination (RFE)
+
+### Benefits
+
+* Reduced model complexity
+* Improved prediction performance
+* Identified the most influential risk factors
+
+---
+
+## 📈 Model Training & Validation
+
+### Models Evaluated
+
+* Logistic Regression
+* Random Forest
+* Gradient Boosting
+* AdaBoost
+* Support Vector Machine (SVM)
+* Neural Network
+
+### Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+* Confusion Matrix
+
+---
+
+## 🏆 Results
+
+### Best Performing Model
+
+**Logistic Regression**
+
+* Accuracy: **96.4%**
+
+### Neural Network
+
+* Accuracy: **95.9%**
+
+### Key Achievement
+
+* High predictive performance with strong clinical interpretability.
+
+---
+
+## 🌐 Streamlit Web Application
+
+### 📊 Dashboard
+
+* Project overview
+* Dataset statistics
+* Performance metrics
+
+### 📈 Data Explorer
+
+* Interactive visualizations
+* Correlation analysis
+* Feature exploration
+
+### 🩺 Risk Predictor
+
+* Real-time stroke risk prediction
+* Personalized recommendations
+
+### 🔍 Model Insights
+
+* Feature importance
+* Confusion matrices
+* Performance comparisons
+
+---
+
+## ✨ User Experience
+
+* Clean medical-themed interface
+* Interactive visualizations
+* Real-time prediction
+* Privacy-first local computation
+* Responsive design
+* Suitable for:
+
+  * Patients
+  * Doctors
+  * Researchers
+
+---
+
+## 🚀 Why Streamlit?
+
+* Rapid development and deployment
+* Seamless Python integration
+* Interactive Plotly visualizations
+* Lightweight architecture
+* Mobile-friendly interface
+
+---
+
+## 🔮 Future Enhancements
+
+* Real-time biometric sensor integration
+* Mobile application development
+* Wearable device compatibility
+* Electronic Health Record (EHR) integration
+* Cloud deployment and scalability
+
+---
+
+## 👥 Target Users
+
+* Healthcare Professionals
+* Researchers
+* Medical Students
+* Patients
+* Healthcare Organizations
